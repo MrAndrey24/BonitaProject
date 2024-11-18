@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.1">
+    <application layout="custompage_layoutBonita" theme="custompage_themeBonita" token="claims" version="1.0" profile="User" state="ACTIVATED">
+        <displayName>Claims</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_claimsList" token="dashboard"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="dashboard">
+                <displayName> My dashboard</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
